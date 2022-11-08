@@ -8,7 +8,7 @@
     header li{
         list-style: none;
     }
-     #zmist:link, viseted 
+     ul li a:link
         {
             text-decoration: none;
             background-color: blue;
@@ -18,15 +18,18 @@
             width: 200px;
             color: azure
         }
-        #zmist:hover
+        ul li a:hover
         {
             background-color: magenta;
             color:white
         }
-         #zmist:active
+         ul li:focus
         {
             background-color: yellow;
             color:blue
+        }
+        ul li a:visited{
+          color:white;
         }
 
     p.info{
@@ -79,11 +82,13 @@
   <h2 id="biography">Автобіографія Буковецької Каріни Сергіївної</h2>
   <a class="back" href="index.html" title="Назад на головну">Назад на головну </a>
   <h3 id="list">Зміст :</h3>
-  <div><a href="#info"> Базова інформація</a></div>
-  <div><a href="#child"> Дитинство</a></div>
-  <div><a href="#school"> Шкільні роки</a></div>
-  <div><a href="#out"> Поза школою</a></div>
-  <div><a href="#university"> Університет</a></div>
+  <ul>
+  <li><a href="#info"> Базова інформація</a>/li>
+  <li><a href="#child"> Дитинство</a></li>
+  <li><a href="#school"> Шкільні роки</a></li>
+  <li><a href="#out"> Поза школою</a></li>
+  <li><a href="#university"> Університет</a></li>
+  </ul>
   <article>
     <h2 id="info">Базова інформація:</h2>
     <p class="info">Мене звати Каріна, мені 17 років. Знак зодіаку терези,адже народилася 17 жовтня.
