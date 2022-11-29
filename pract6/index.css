@@ -48,7 +48,7 @@ color:rgb(27, 156, 59);
     }
 }
 
-@media (min-width: 768px) and (max-width: 992px){
+@media (min-width: 768px) and (max-width: 992px) {
     .row {
         flex-wrap: wrap;
     }
