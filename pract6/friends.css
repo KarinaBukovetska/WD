@@ -1,0 +1,27 @@
+tr>td:nth-child(odd){
+      background-color: grey;
+      color: darkblue;
+    }
+    table, tr, td ,th {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    h1{
+      text-align: center;
+      font-size: 22px;
+    }
+    .back{
+  font-style: italic;
+}
+h2{
+  text-align: center;
+}
+th{
+  text-align: center;
+  background-color: green;
+  color:yellow;
+  font-weight: bold ;
+}
+td:last-child{
+  text-align: right;
+}
