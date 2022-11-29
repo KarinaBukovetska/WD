@@ -37,15 +37,15 @@ td:last-child{
 @media (min-width: 768px) and (max-width: 992px) {
 
   td {
-      font-size: calc(16px + 10%);
+      font-size: calc(15px + 10%);
   }
   th{
-      font-size: calc(16px + 20%);
+      font-size: calc(15px + 20%);
   }
 }
 
 @media (max-width: 768px) {
   th{
-      font-size: calc(16px + 10%);
+      font-size: calc(15px + 10%);
   }
 }

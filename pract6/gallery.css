@@ -56,7 +56,7 @@ h2{
 }
 
 @media (max-width: 768px) {
-  .col-sm-12 {
+  .col-sm-4 {
       width: 100%;
   }
 }

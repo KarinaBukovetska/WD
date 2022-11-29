@@ -42,7 +42,7 @@ color:rgb(27, 156, 59);
       border-radius: 5px;
       padding: 20px 0;
   }
-  @media (min-width: 992px) {
+@media (min-width: 992px) {
     .col-lg-4 {
         width: 25%;
     }
