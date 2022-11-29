@@ -1,0 +1,70 @@
+header li{
+        list-style: none;
+    }
+     ul li a:link
+        {
+            text-decoration: none;
+            background-color: blue;
+            border: 2px solid black;
+            margin-bottom: 2px;
+            display:block;
+            width: 200px;
+            color: azure;
+        }
+        ul li a:hover
+        {
+            background-color: magenta;
+            color:white;
+        }
+         ul li a:focus
+        {
+            background-color: yellow;
+            color:blue;
+        }
+        ul li a:visited{
+          color:white;
+        }
+
+    p.info{
+        background-color: brown;
+        color: white;
+    }
+    p.child{
+        background-color: aqua;
+        color: black;
+    }
+    p.school{
+      background-color: black;
+      color: white;
+    }
+    p.out{
+      background-color: blueviolet;
+      color: blanchedalmond;
+    }
+    p.university{
+      background-color: darkgray;
+      color: black;
+    }
+    #biography {
+      text-align: center;
+      font-size: 22px;
+    }
+.back{
+  font-style: italic;
+}
+.info, .child, .scholl, .out, .university {
+  font-size: 120%;
+}
+#info, #child, #school, #out, #university {
+  font-size: 144%;
+}
+
+#list {
+  text-align: center;
+}
+.z{
+  font-weight: bold;
+}
+.up{
+  text-transform: uppercase;
+}
