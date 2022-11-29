@@ -29,3 +29,45 @@ color:rgb(27, 156, 59);
     p{
       font-size: 120%;
     }
+    .row {
+      width: 100%;
+      display: flex;
+      text-align: center;
+  
+  }
+  
+  .item {
+      margin: 5px;
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 20px 0;
+  }
+  @media (min-width: 992px) {
+    .col-lg-4 {
+        width: 25%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
