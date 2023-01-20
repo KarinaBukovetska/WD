@@ -1,32 +1,33 @@
-#link1:link {
-      color:rgb(37, 100, 218);
-    }
-  #link1:visited {
+#bio a:link {
+  color:rgb(37, 100, 218);
+}
+#bio a:visited {
 color:rgb(27, 156, 59);
-    }
-    #link2:link{
-        color: rgb(231, 67, 108);
-    }
-    #link2:visited{
-      color: darkcyan;
-    }
-    #link3:link{
-      color: brown;
-    }
-    #link3:visited{
-      color: rgb(223, 45, 45);
-    }
-    #link4:link{
-      color: deeppink;
-    }
-    #link4:visited{
-      color:gold ;
-    }
+}
+#nova a:link{
+    color: rgb(231, 67, 108);
+  
+}
+#nova a:visited{
+  color: darkcyan;
+}
+#fr a:link{
+  color: brown;
+}
+#fr a:visited{
+  color: rgb(223, 45, 45);
+}
+#ga a:link{
+  color: deeppink;
+}
+#ga a:visited{
+  color:gold ;
+}
     h1 {
       text-align: center;
       font-size: 24px;
     }
-    p{
+    #text{
       font-size: 120%;
     }
     .row {
