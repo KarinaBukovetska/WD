@@ -74,7 +74,7 @@ header li{
   text-align: center;
 
 }
-.row div {
+.row div{
   display: flex;
   align-items: stretch;
 }
