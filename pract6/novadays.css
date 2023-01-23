@@ -33,28 +33,38 @@ ol li ol li:nth-child(5) {
 h2{
   text-align: center;
 }
-.row {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
+
+
 
 @media (min-width: 992px) {
   .col-lg-6 {
       width: 50%;
-      display: flex;
-      justify-content: center;
   }
+
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
   .col-md-12 {
       width: 100%;
   }
+
+  .row {
+      display: flex;
+      flex-direction: column;
+    }
 }
 
 @media (max-width: 768px) {
   .col-sm-12 {
       width: 100%;
   }
+
+  .row {
+      display: flex;
+      flex-direction: column;
+    }
 }
