@@ -41,7 +41,7 @@ td:last-child{
   }
   th{
       font-size: calc(15px + 20%);
-  }
+  } 
 }
 
 @media (max-width: 768px) {

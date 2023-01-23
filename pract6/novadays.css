@@ -1,26 +1,17 @@
-ul li ul li:nth-child(odd){
-  background-color: gray;
+div li:nth-child(odd){
+  background-color: grey;
   color: darkblue;
-  width: 200px;
+  width: 150px;
 }
-
-ul li ul li:nth-child(even) {
-  background-color: white;
-  color: black;
-  width: 200px;
+section li:nth-child(3){
+  cursor:pointer;
 }
-
-ol li ol li:nth-child(4) {
-  background-color: blueviolet;
-  width: 200px;
-}
-
-ol li ol li:nth-child(3) {
-  cursor: pointer;
-}
-
-ol li ol li:nth-child(5) {
-  cursor: pointer;
+ol li:nth-child(4){
+   background-color:blueviolet;
+   width: 450px;
+  }
+section li:nth-child(5) {
+  cursor:pointer;
 }
 
    h1{
