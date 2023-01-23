@@ -5,21 +5,30 @@
   <meta charset="utf-8">
   <title> Cьогодення Буковецької Каріни Сергіївної</title>
   <style>
-    div li:nth-child(odd){
-     background-color: grey;
-     color:darkblue;
-     width: 150px;
-   }
-   section li:nth-child(3){
-     cursor: pointer;
-   }
-    section li:nth-child(5){
-     cursor: pointer;
-   }
-    ol li:nth-child(4){
-     background-color: blueviolet;
-     width: 450px;
-   }
+    ul li ul li:nth-child(odd) {
+    background-color: gray;
+    color: darkblue;
+    width: 150px;
+  }
+  
+  ul li ul li:nth-child(even) {
+    background-color: white;
+    color: black;
+    width: 150px;
+  }
+
+  ol li ol li:nth-child(4) {
+    background-color: blueviolet;
+    width: 200px;
+  }
+  
+  ol li ol li:nth-child(3) {
+    cursor: pointer;
+  }
+  
+  ol li ol li:nth-child(5) {
+    cursor: pointer;
+  }
    h1{
     text-align: center;
     font-size: 22px;
@@ -36,7 +45,7 @@ h2{
   <h1>Сьогодення Буковецької Каріни Сергіївної</h1>
   <a class="back" href="index.html" title="Назад на головну">Назад на головну </a>
   
-  <div>
+  
     <h2>Мій типовий список покупок :</h2>
       Молочні продукти :
         <ul>
@@ -72,7 +81,7 @@ h2{
           <li>Огірки</li>
           <li>Мандарини</li>
         </ul>
-  </div>
+  
   
   <section>
     <h2>Мій улюблений десерт :</h2>
