@@ -1,33 +1,32 @@
-#bio a:link {
-  color:rgb(37, 100, 218);
-}
-#bio a:visited {
-color:rgb(27, 156, 59);
-}
-#nova a:link{
-    color: rgb(231, 67, 108);
-  
-}
-#nova a:visited{
-  color: darkcyan;
-}
-#fr a:link{
-  color: brown;
-}
-#fr a:visited{
-  color: rgb(223, 45, 45);
-}
-#ga a:link{
-  color: deeppink;
-}
-#ga a:visited{
-  color:gold ;
-}
+.b:visited {
+  color:rgb(27, 156, 59);
+      }
+      .n:visited{
+        color: darkcyan;
+      }
+      .f:visited{
+        color: rgb(223, 45, 45);
+      }
+      .g:visited{
+        color:gold ;
+      }
+      .b:link {
+        color:rgb(37, 100, 218);
+      }
+      .n:link{
+          color: rgb(231, 67, 108);
+      }
+      .f:link{
+        color: brown;
+      }
+      .g:link{
+        color: deeppink;
+      }
     h1 {
       text-align: center;
       font-size: 24px;
     }
-    #text {
+    #text{
       font-size: 120%;
     }
     .row {
